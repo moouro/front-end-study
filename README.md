@@ -10,8 +10,8 @@
 
 ## 📋Estudos
 
-- [GIt]([dio-desafio-github/Estudos/Git at main · moouro/dio-desafio-github · GitHub](https://github.com/moouro/dio-desafio-github/tree/main/Estudos/Git))
+- [GIt](https://github.com/moouro/dio-desafio-github/tree/main/Estudos/Git)
 
-- [Github]([dio-desafio-github/Estudos/Github at main · moouro/dio-desafio-github · GitHub](https://github.com/moouro/dio-desafio-github/tree/main/Estudos/Github))
+- [Github](https://github.com/moouro/dio-desafio-github/tree/main/Estudos/Github)
 
 - 
