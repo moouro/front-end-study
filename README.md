@@ -14,6 +14,4 @@
 
 - [Github](https://github.com/moouro/dio-desafio-github/tree/main/Estudos/Github)
 
-- [HMTL / CSS]([dio-desafio-github/Estudos/HTML &amp; CSS at main · moouro/dio-desafio-github · GitHub](https://github.com/moouro/dio-desafio-github/tree/main/Estudos/HTML%20%26%20CSS)
-
-- 
+- [HTML / CSS](https://github.com/moouro/dio-desafio-github/tree/main/Estudos/HTML%20%26%20CSS)
