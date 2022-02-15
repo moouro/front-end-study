@@ -1,7 +1,44 @@
+:root {
+  --red-900: #e50917;
+  --black-900: #141414;
+}
+
 * {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  min-height: 100vh;
+  background: var(--black-900);
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  flex-direction: row;
+}
+
+header .logo {
+  color: var(--red-900);
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+header nav a {
+  color: #aaa;
+  text-decoration: none;
+  margin-right: 10px;
+  transition: color 0.4s;
+}
+
+header nav a:hover {
+  color: #fff;
 }
