@@ -42,5 +42,28 @@ header nav a {
 }
 
 header nav a:hover {
-  color: #fff;
+  color: var(--white-900);
+}
+
+/* Main Movie */
+.main-movie {
+  font-size: 1rem;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../img/capa-house.jpg');
+
+  height: 25rem;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.main-movie .description {
+  margin-bottom: 5rem;
+}
+
+.title {
+  font-size: 2.5rem;
 }
