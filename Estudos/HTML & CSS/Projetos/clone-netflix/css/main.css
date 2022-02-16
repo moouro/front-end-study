@@ -1,6 +1,7 @@
 :root {
   --red-900: #e50917;
   --black-900: #141414;
+  --white-900: #fff;
 }
 
 * {
@@ -12,6 +13,7 @@
 body {
   background: var(--black-900);
   font-family: 'Open Sans', sans-serif;
+  color: var(--white-900);
 }
 
 a {
