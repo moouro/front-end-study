@@ -17,9 +17,17 @@
     align-items: center;
   }
 
+  .btn-play,
+  .btn-more {
+    width: 70%;
+  }
+
   /* img {
     width: 100%;
     max-width: 50%;
     margin: auto;
   } */
+}
+
+@media screen and (max-width: 1000px) {
 }
