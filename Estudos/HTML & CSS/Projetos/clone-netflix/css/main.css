@@ -14,7 +14,7 @@ body {
   background: var(--black-900);
   font-family: 'Open Sans', sans-serif;
   color: var(--white-900);
-  font-size: 1.15em;
+  font-size: clamp(16px, 4vw, 22px);
   -webkit-font-smoothing: antialiased;
 }
 
@@ -33,22 +33,6 @@ a {
 }
 p {
   line-height: 1.3em;
-}
-
-@media screen and (min-width: 24.15em) {
-  /* 21em "gate" * 1.15 font-size */
-  p {
-    font-size: 1.15em;
-    line-height: calc(1.3em + (1.5 - 1.3) * ((100vw - 21em) / (35 - 21)));
-  }
-}
-
-@media (min-width: 40.25em) {
-  /* 35em "gate" * 1.15 font-size */
-  p {
-    font-size: 1.15em;
-    line-height: 1.5em;
-  }
 }
 
 img,
@@ -71,7 +55,7 @@ header .container {
 
 header .logo {
   color: var(--red-900);
-  font-size: 2.5rem;
+  font-size: 25px;
   font-weight: bold;
 }
 
@@ -80,6 +64,7 @@ header nav a {
   text-decoration: none;
   margin-right: 10px;
   transition: color 0.4s;
+  font-size: 0.9375rem;
 }
 
 header nav a:hover {
