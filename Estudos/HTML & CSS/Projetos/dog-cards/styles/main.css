@@ -1,5 +1,4 @@
 .header {
-  background-color: #f1f1f1;
   padding: 2rem;
   text-align: center;
   margin-bottom: 5rem;
@@ -16,16 +15,12 @@
   transition: all 0.2s ease-in-out;
 }
 
-.logo:hover {
-  transform: scale(1.1);
-}
-
 .logo img {
   width: 2rem;
 }
 
 .container {
-  max-width: 80rem;
+  max-width: 75rem;
   width: 100%;
   margin: 0 auto;
 }
@@ -52,10 +47,10 @@
   transition: 0.2s;
 }
 
-/* .pets__card:hover {
+.pets__card:hover {
   transform: translateY(-0.5%);
   box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.1);
-} */
+}
 
 .pets__card img {
   display: block;

@@ -14,6 +14,12 @@
     <!-- FAVICON -->
     <link rel="shortcut icon" type="image/sgv" href="img/logo.svg" />
 
+    <!-- BOX ICONS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
     <!-- GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <!-- *currently set to "Roboto". Feel free to change it to whatever you like* -->
@@ -24,8 +30,8 @@
 
     <!-- CSS STYLE LINK -->
     <link rel="stylesheet" href="./styles/reset.css" />
-    <link rel="stylesheet" href="./styles/main.css" />
     <link rel="stylesheet" href="./styles/adopt.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
   </head>
   <body>
     <!-- WEBSITE CONTENT GOES HERE -->
@@ -39,32 +45,19 @@
     </header>
 
     <main class="main">
-      <div class="container">
-        <h1 class="title">Pets Pets Available for Adoption Nearby</h1>
-        <div class="container__cards">
-          <section class="pets">
-            <div class="pets__cards">
-              <div class="pets__card">
-                <img
-                  src="./img/pet01.svg"
-                  alt="Pet 01"
-                  class="pets__card-img"
-                />
+      <div class="container adopt-container">
+        <div class="details-img">
+          <img
+            src="./img/pet2.jpg"
+            alt="Bruce is a goofy boy! He adores people and loves playing with other dogs. Bruce is deaf so all the noise at the shelter doesn't both him one bit!"
+          />
+        </div>
 
-                <div class="card__content">
-                  <h2 class="card__title">Bruce</h2>
-                  <p class="card__subtitle">Adopt this pet</p>
-                  <p class="card__text">
-                    Bruce is a goofy boy! He adores people and loves playing
-                    with other dogs. Bruce is deaf so all the noise at the
-                    shelter doesn't both him one bit!
-                  </p>
+        <div class="details">
+          <h1>Bruce Max</h1>
+          <p class="location"><i class="bx bxs-map"></i> Los Angeles, CA</p>
 
-                  <a href="#" class="btn">CONNECT ME </a>
-                </div>
-              </div>
-            </div>
-          </section>
+          <p class="description">Bruce is a goofy</p>
         </div>
       </div>
     </main>
