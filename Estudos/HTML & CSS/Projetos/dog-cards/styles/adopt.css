@@ -1,10 +1,9 @@
 .details-img {
   max-width: 660px;
   object-fit: cover;
+  margin-bottom: 80px;
 }
 .adopt-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  max-width: 960px;
+  margin: auto;
 }

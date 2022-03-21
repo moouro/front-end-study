@@ -31,7 +31,7 @@
   text-transform: uppercase;
   font-weight: 900;
   color: #fff;
-  background-color: #f39c12;
+  background-color: #4e87f8;
   text-align: center;
   padding: 0.8rem;
 }
@@ -92,8 +92,10 @@
 }
 
 .card__content .btn {
-  width: 100%;
+  width: 20.625rem;
+  height: 3.125rem;
   display: block;
+  margin: auto;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -101,7 +103,7 @@
   text-align: center;
   padding: 14px 10px;
   border-radius: 5px;
-  color: #ffffff;
+  color: #fff;
   background-color: #4e87f8;
   transition: all 0.2s ease-in-out;
 }
