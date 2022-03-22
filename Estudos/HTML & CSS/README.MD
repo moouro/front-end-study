@@ -3,4 +3,4 @@
 ## Projetos práticos
 
 - [Projeto | Clone Netflix](https://github.com/moouro/dio-desafio-github/tree/main/Estudos/HTML%20%26%20CSS/Projetos/clone-netflix)
-- [Adopt Pet](https://github.com/moouro/front-end-study/tree/main/Estudos/HTML%20%26%20CSS/Projetos/dog-cards)
+
